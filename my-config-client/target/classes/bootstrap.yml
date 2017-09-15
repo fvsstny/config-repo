@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: my-client
+  cloud:
+    config:
+      uri: http://server:8888
+      profile: uat
+      label: master
